@@ -2,8 +2,8 @@ provider "aws"{
     region = "us-east-1"
 }
 
-resource "aws_instance" "demo" {
-    ami = "ami-ahsasakj
+resource 'aws_instance' 'demo' {
+    ami = "ami-ahsasakj"
     instance_type = "t2.micro"
 }
 
@@ -21,7 +21,7 @@ resource "aws_s3_bucket" "test-bucket" {
 }
 
 
-variable "region"{
+variable "region " {
     default = "us-east-1"
 }
 

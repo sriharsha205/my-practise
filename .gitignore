@@ -1,0 +1,8 @@
+#terraform files
+.terraform  
+.tfstate
+.tfstate.backup
+# Python files
+*.env
+
+
