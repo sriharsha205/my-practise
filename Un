@@ -1,0 +1,12 @@
+#!/bin/bash
+read num 
+
+if [$num -gt 10]:
+then
+echo "total waste"
+else
+echo "right"
+fi
+
+
+
